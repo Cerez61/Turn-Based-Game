@@ -1,3 +1,8 @@
+C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.exe
+C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.deps.json
+C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.runtimeconfig.json
+C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.dll
+C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.pdb
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.Form1.resources
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.csproj.GenerateResource.cache
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.GeneratedMSBuildEditorConfig.editorconfig
@@ -5,11 +10,6 @@ C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\o
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.AssemblyInfo.cs
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.csproj.CoreCompileInputs.cache
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.sourcelink.json
-C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.exe
-C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.deps.json
-C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.runtimeconfig.json
-C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.dll
-C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\bin\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.pdb
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.dll
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\refint\SıraTabanlıRenkBilmeOyunu.dll
 C:\Users\90534\Desktop\SıraTabanlıRenkBilmeOyunu\SıraTabanlıRenkBilmeOyunu\obj\Debug\net8.0-windows\SıraTabanlıRenkBilmeOyunu.pdb
