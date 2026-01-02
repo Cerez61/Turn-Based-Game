@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SıraTabanlıRenkBilmeOyunu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92fe5964f7a7c3184a06b85e659d42ff999d0b35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+283918c79030986612dcb13daad25abad090c837")]
 [assembly: System.Reflection.AssemblyProductAttribute("SıraTabanlıRenkBilmeOyunu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SıraTabanlıRenkBilmeOyunu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
