@@ -6,9 +6,10 @@
         PictureBox texture;
         PictureBox socket;
         PictureBox selectedPicture;
+        PictureBox selectedSocket;
         PictureBox[] gameTextures = new PictureBox[4];
         public PictureBox[] emptySocket = new PictureBox[4];
-        PictureBox[,] guessTextures = new PictureBox[4,4];
+        PictureBox[,] guessTextures = new PictureBox[5,4];
 
         int[,] pictureColors =
         {
@@ -25,7 +26,7 @@
             "blue",
             "yellow"
         };
-
+        public int guessLength;
         public int guessCount;
 
         int pictureWidth;
@@ -55,6 +56,10 @@
         {
             this.form = form;
 
+            this.initTexture();
+  }
+        public void initTexture()
+        {
 
             this.margin = 25;
 
@@ -62,8 +67,8 @@
             this.pictureHeight = 50;
             this.socketWidth = 50;
             this.socketHeight = 50;
-            this.guessWidth = 40;
-            this.guessHeight = 40;
+            this.guessWidth = 30;
+            this.guessHeight = 30;
 
 
 
@@ -80,6 +85,8 @@
             this.socketY = 0;
             this.guessX = 0;
             this.guessY = 0;
+
+            this.guessLength = this.guessTextures.GetLength(0);
 
         }
         public void setGameTextures()
@@ -126,8 +133,24 @@
                 this.emptySocket[i] = this.socket;
 
                 this.socketX += this.socketWidth + this.margin;
-                
             }
+
+            //selectedTexture
+            this.socket = new PictureBox();
+
+
+            this.socket.Width = this.socketWidth;
+            this.socket.Height = this.socketHeight;
+
+
+            this.socket.Left = this.form.Width - (this.socket.Width + this.margin);
+            this.socket.Top = this.margin / 2;
+
+            this.socket.BackColor = Color.FromArgb(this.socketColors[0], this.socketColors[1], this.socketColors[2]);
+            this.socket.Tag = "empty";
+
+            this.form.Controls.Add(this.socket);
+            this.selectedSocket = this.socket;
         }
         public void setGameTextureEvents()
         {
@@ -168,7 +191,16 @@
                 this.guessY += this.guessHeight + this.margin;
             }
         }
-
+        public void visibleGuessTexture()
+        {
+            for(int column=0;column<this.guessTextures.GetLength(0);column++)
+            {
+                for(int row=0;row<this.guessTextures.GetLength(1);row++)
+                {
+                    this.guessTextures[column, row].Visible = !this.guessTextures[column, row].Visible;
+                }
+            }
+        }
         public void showGuess(Label guessText)
         {
             int column = this.guessTextures.GetLength(0) - this.guessCount;
@@ -179,16 +211,28 @@
                 this.guessTextures[column, row].BackColor = this.emptySocket[row].BackColor;
             }
 
-            guessText.Left = this.guessTextures[column, lastRow].Left + this.margin + guessText.Width;
-            guessText.Top = this.guessTextures[column, lastRow].Top;
+            guessText.Left = this.guessTextures[column, lastRow].Left + this.guessTextures[column,lastRow].Width + this.margin;
+            guessText.Top = this.guessTextures[column, lastRow].Top + this.guessTextures[column,lastRow].Height / 8;
 
 
+        }
+        public void deleteSockets()
+        {
+            foreach(PictureBox socket in this.emptySocket)
+            {
+                socket.Tag = "empty";
+                socket.BackColor = Color.FromArgb(this.socketColors[0], this.socketColors[1], this.socketColors[2]);
+            }
         }
         public void GameTextures_Click(object sender,EventArgs e)
         {
             PictureBox texture = sender as PictureBox;
 
             this.selectedPicture = texture;
+
+            this.selectedSocket.BackColor = texture.BackColor;
+            this.selectedSocket.Tag = texture.Tag;
+
         }
         public void EmptySocket_MouseDown(object sender,MouseEventArgs e)
         {

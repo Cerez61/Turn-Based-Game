@@ -6,7 +6,6 @@ namespace LabelManagement
 
         Label label;
         public Label guessLabel = new Label();
-
         int guessTextWidth;
         int guessTextHeight;
 
@@ -29,6 +28,13 @@ namespace LabelManagement
 
             this.guessLabel = label;
             this.form.Controls.Add(this.guessLabel);
+        }
+        public void visibleText()
+        {
+            foreach (var lbl in this.form.Controls.OfType<Label>())
+            {
+                lbl.Visible = !lbl.Visible;
+            }
         }
     }
 }

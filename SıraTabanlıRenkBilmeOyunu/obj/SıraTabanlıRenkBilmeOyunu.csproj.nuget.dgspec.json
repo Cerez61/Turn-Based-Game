@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\90534\\Desktop\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj": {}
+    "C:\\Users\\90534\\Desktop\\RenkBilme\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\90534\\Desktop\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj": {
+    "C:\\Users\\90534\\Desktop\\RenkBilme\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90534\\Desktop\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj",
+        "projectUniqueName": "C:\\Users\\90534\\Desktop\\RenkBilme\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj",
         "projectName": "SıraTabanlıRenkBilmeOyunu",
-        "projectPath": "C:\\Users\\90534\\Desktop\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj",
+        "projectPath": "C:\\Users\\90534\\Desktop\\RenkBilme\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu.csproj",
         "packagesPath": "C:\\Users\\90534\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90534\\Desktop\\SıraTabanlıRenkBilmeOyunu\\SıraTabanlıRenkBilmeOyunu\\obj\\",
+        "outputPath": "C:\\Users\\90534\\Desktop\\RenkBilme\\SıraTabanlıRenkBilmeOyunu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
